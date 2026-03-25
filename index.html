@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lucide@0.294.0/dist/css/lucide.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <nav class="nav">
+      <a href="#hero" class="nav-logo">Portfolio</a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#certifications">Certifications</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="nav-toggle" aria-label="Toggle menu">
+        <i data-lucide="menu"></i>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section id="hero" class="hero">
+      <div class="hero-bg">
+        <div class="hero-grid"></div>
+        <div class="hero-glow"></div>
+      </div>
+      <div class="hero-content">
+        <p class="hero-greeting">Hi, I'm</p>
+        <h1 class="hero-name">Abdul Reehan</h1>
+        <p class="hero-role">Computer Science Student</p>
+        <p class="hero-tagline">Building secure systems and exploring the intersection of code and defense.</p>
+        <div class="hero-cta">
+          <a href="#projects" class="btn btn-primary">View Projects</a>
+          <a href="#contact" class="btn btn-outline">Get in Touch</a>
+        </div>
+      </div>
+      <div class="hero-scroll">
+        <span>Scroll</span>
+        <i data-lucide="chevron-down"></i>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section about">
+      <div class="container">
+        <h2 class="section-title">
+          <span class="section-number">01</span>
+          About Me
+        </h2>
+        <div class="about-grid">
+          <div class="about-content">
+            <p class="about-text">
+              I'm a Computer Science student passionate about building secure, scalable systems and understanding how to defend against modern threats. I enjoy turning complex problems into elegant solutions through code and security research.
+            </p>
+            <p class="about-text">
+              When I'm not coding or studying, I contribute to open source, participate in CTFs, and stay updated with the latest in infosec. My goal is to work in application security or security engineering, helping organizations build safer software.
+            </p>
+            <ul class="about-highlights">
+              <li><i data-lucide="code-2"></i> Focus on secure development practices</li>
+              <li><i data-lucide="shield-check"></i> Interest in penetration testing & defense</li>
+              <li><i data-lucide="target"></i> Career goal: Security Engineer / AppSec</li>
+            </ul>
+          </div>
+          <div class="about-visual">
+            <div class="about-card">
+              <div class="about-card-inner">
+                <i data-lucide="terminal"></i>
+                <span>Always learning</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section skills">
+      <div class="container">
+        <h2 class="section-title">
+          <span class="section-number">02</span>
+          Skills
+        </h2>
+        <div class="skills-grid">
+          <div class="skill-category">
+            <h3><i data-lucide="code"></i> Programming</h3>
+            <ul class="skill-tags">
+              <li>Python</li>
+              <li>JavaScript</li>
+              <li>Java</li>
+              <li>C / C++</li>
+              <li>SQL</li>
+              <li>Bash</li>
+            </ul>
+          </div>
+          <div class="skill-category">
+            <h3><i data-lucide="shield"></i> Cyber Security</h3>
+            <ul class="skill-tags">
+              <li>Network Security</li>
+              <li>Web Security</li>
+              <li>Cryptography</li>
+              <li>Penetration Testing</li>
+              <li>Digital Forensics</li>
+              <li>Security Auditing</li>
+            </ul>
+          </div>
+          <div class="skill-category">
+            <h3><i data-lucide="wrench"></i> Tools & Platforms</h3>
+            <ul class="skill-tags">
+              <li>Git / GitHub</li>
+              <li>Linux</li>
+              <li>Docker</li>
+              <li>Wireshark</li>
+              <li>Burp Suite</li>
+              <li>Metasploit</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section projects">
+      <div class="container">
+        <h2 class="section-title">
+          <span class="section-number">03</span>
+          Projects
+        </h2>
+        <div class="projects-grid">
+          <article class="project-card">
+            <div class="project-header">
+              <i data-lucide="folder-git-2"></i>
+              <div class="project-links">
+                <a href="#" aria-label="GitHub"><i data-lucide="github"></i></a>
+                <a href="#" aria-label="Live demo"><i data-lucide="external-link"></i></a>
+              </div>
+            </div>
+            <h3>online exam procorting system</h3>
+            <p>helps for better moniotring system.reduce malparctice.improve effiency</p>
+            <ul class="project-tech">
+              <li>Python</li>
+              <li>FastAPI</li>
+              <li>PostgreSQL</li>
+              <li>JWT</li>
+            </ul>
+          </article>
+          <article class="project-card">
+            <div class="project-header">
+              <i data-lucide="folder-git-2"></i>
+              <div class="project-links">
+                <a href="#" aria-label="GitHub"><i data-lucide="github"></i></a>
+                <a href="#" aria-label="Live demo"><i data-lucide="external-link"></i></a>
+              </div>
+            </div>
+            <h3>smart inventory system </h3>
+            <p>helps to maintain sustainablity in the warehouse. helps in product sales and the rate . different occasional and seasonal items.</p>
+            <ul class="project-tech">
+              <li>Python</li>
+              <li>Scapy</li>
+              <li>Wireshark</li>
+            </ul>
+          </article>
+          <article class="project-card">
+            <div class="project-header">
+              <i data-lucide="folder-git-2"></i>
+              <div class="project-links">
+                <a href="#" aria-label="GitHub"><i data-lucide="github"></i></a>
+                <a href="#" aria-label="Live demo"><i data-lucide="external-link"></i></a>
+              </div>
+            </div>
+            <h3>Portfolio Website</h3>
+            <p>Responsive personal portfolio with dark theme, smooth animations, and semantic HTML. Focus on accessibility and performance.</p>
+            <ul class="project-tech">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education -->
+    <section id="education" class="section education">
+      <div class="container">
+        <h2 class="section-title">
+          <span class="section-number">04</span>
+          Education
+        </h2>
+        <div class="education-timeline">
+          <div class="education-item">
+            <div class="education-dot"></div>
+            <div class="education-content">
+              <span class="education-year">2026 – Present</span>
+              <h3> Computer Science </h3>
+              <p>MYSURU ROYAL INSTITUTE OF TECHNOLOGY</p>
+              <p class="education-desc">Focus on secure software development, networks, and security fundamentals. Relevant coursework: Data Structures, Algorithms, Network Security, Cryptography.</p>
+            </div>
+          </div>
+          <div class="education-item">
+            <div class="education-dot"></div>
+            <div class="education-content">
+              <span class="education-year">2021 – 2023</span>
+              <h3>MAHARAJA GOV. PU COLLEGE</h3>
+              <p>pre university education</p>
+              <p class="education-desc">basics of science,computer science, mathematics and etc.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="education-item">
+        <div class="education-dot"></div>
+        <div class="education-content">
+          <span class="education-year">upto 2021</span>
+          <h3>B M shree high school</h3>
+          <p>primary and high school</p>
+          <p class="education-desc">basic knowledge .</p>
+        </div>
+      </div>
+    </div>
+  </div>
+    </section>
+
+    <!-- Certifications -->
+    <section id="certifications" class="section certifications">
+      <div class="container">
+        <h2 class="section-title">
+          <span class="section-number">05</span>
+          Certifications & Achievements
+        </h2>
+        <div class="certs-grid">
+          <div class="cert-card">
+            <i data-lucide="award"></i>
+            <h3>AWS Certified</h3>
+            <p>cloud foundations,genrative ai,machine learning foundations,cloud development</p>
+          </div>
+          <div class="cert-card">
+            <i data-lucide="trophy"></i>
+            <h3>Hacathon Participant</h3>
+            <p>Different inter college hacathons,national level hacathon , including 24-12 hours hacathons</p>
+          </div>
+          <div class="cert-card">
+            <i data-lucide="graduation-cap"></i>
+            <h3>Workshops</h3>
+            <p>attended different workshops on IOT,Artificial intelligence</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section contact">
+      <div class="container">
+        <h2 class="section-title">
+          <span class="section-number">8105602314</span>
+          Contact
+        </h2>
+        <p class="contact-intro">I'm open to internships, collaboration, and discussions about security and software. Reach out via email or connect on socials.</p>
+        <div class="contact-links">
+          <a href="mailto:malikreehan24@gmail.com" class="contact-link">
+            <i data-lucide="mail"></i>
+            <span>malikreehan24@gmail.com</span>
+          </a>
+          <a href="https://github.com/malikreehan" target="_blank" rel="noopener noreferrer" class="contact-link">
+            <i data-lucide="github"></i>
+            <span>malikreehan</span>
+          </a>
+          <a href="https://linkedin.com/in/abdul reehan" target="_blank" rel="noopener noreferrer" class="contact-link">
+            <i data-lucide="linkedin"></i>
+            <span>abdul reehan</span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Built with care · © <span id="year"></span></p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/lucide@0.294.0/dist/umd/lucide.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
